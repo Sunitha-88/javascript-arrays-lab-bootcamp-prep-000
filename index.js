@@ -5,42 +5,42 @@ function kittensFunction(){
 	}
 
 function destructivelyAppendKitten(name){
-	kittens();
+	kittensFunction();
 	kittens.push('Ralph');
 	return kittens;
 	}
 
 function destructivelyPrependKitten(name){
-	kittens();
+	kittensFunction();
 	kittens.unshift('Bob');
 	return kittens;
 	}
 function destructivelyRemoveLastKitten(){
-	kittens();
+	kittensFunction();
 	kittens.pop();
 	return kittens;
 	}
 
 function destructivelyRemoveFirstKitten(){
-	kittens();
+	kittensFunction();
 	kittens.shift();
 	return kittens;
 	}
 
 function appendKitten(name){
-	kittens();
+	kittensFunction();
 	kittens.push('Broom');
 	return kittens;
 	}
 function prependKitten(name){
-	kittens();
+	kittensFunction();
 	return [name,...kittens];
 	}
 function removeLastKitten(){
-	kittens();
+	kittensFunction();
 	return slice(0,kittens.length-1);
 	}
 function removeFirstKitten(){
-	kittens();
+	kittensFunction();
 	return slice(1,kittens.length);
 	}
