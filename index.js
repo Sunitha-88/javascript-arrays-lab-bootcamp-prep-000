@@ -1,6 +1,6 @@
 var kittens=['Milo', 'Otis', 'Garfield'];
 
-function kittens(){
+function kittensFunction(){
 	return kittens;
 	}
 
